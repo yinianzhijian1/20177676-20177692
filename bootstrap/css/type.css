@@ -1,0 +1,68 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url('images/赵雷6.jpg');
+    background-size: 100%;
+    background-repeat: repeat;  /*不重复*/
+    background-size: cover; /*保持图像本身的宽高比例，将图片缩放到正好完全覆盖定义背景的区域。*/
+    text-align: center;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container {
+	position: absolute;
+	margin-left:  800px;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: 0px;
+    margin-top: 100px;
+    margin-bottom: auto;
+    opacity: 0.4; /*透明度*/
+}
+
+.button_left {
+    position: absolute;
+    right: 150px;
+    width: 100px;
+	margin-top: 50px;
+    padding: 4px;
+    opacity: 0.4;
+}
+
+.button_right {
+    position: absolute;
+    right: 150px;
+	margin-top: 100px;
+    width: 100px;
+    padding: 5px;
+    opacity: 0.4;
+}
+
+.node text {
+    font: 12px 黑体", sans-serif;
+}
+
+.link {
+    fill: none;
+    stroke: rgb(138,43,226);
+    stroke-width: 2px;
+}
+
+#title {
+    text-align: center;
+	margin-top: 50px;
+    color: rgb(218,165,32);
+    font: 60px "楷体", sans-serif;
+    font-weight: normal;
+
+
+}
